@@ -17,7 +17,7 @@ avian3d = { version = "^0.2", default-features = false, features = [
     "3d",
     "debug-plugin",
     "parallel",
-], git = "https://github.com/Jondolf/avian" }
+], git = "https://github.com/Jondolf/avian", branch = "main" }
 bevy-tnua-physics-integration-layer = { version = "^0.8", path = "../physics-integration-layer" }
 
 [package.metadata.docs.rs]
