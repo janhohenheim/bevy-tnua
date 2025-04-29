@@ -1,7 +1,7 @@
 use bevy::ecs::schedule::{InternedScheduleLabel, ScheduleLabel};
+use bevy::platform::collections::{hash_map::Entry, HashMap};
 use bevy::prelude::*;
 use bevy::time::Stopwatch;
-use bevy::utils::{Entry, HashMap};
 use bevy_tnua_physics_integration_layer::math::{AsF32, Float};
 
 use crate::basis_action_traits::{
